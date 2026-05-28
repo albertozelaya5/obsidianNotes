@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "c3e8b94bd17d321d",
+    "type": "split",
+    "children": [
+      {
+        "id": "53e2274d45b2e290",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ced29064ca7548b7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1a45085562dd59c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1a3a7ba66998a6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8278d379ef4b45e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "0b54ce48c17c74e5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "audit",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "47a9e4a326e2f6f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 289.5
+  },
+  "right": {
+    "id": "826e5bbfe173cf13",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb47214092956d11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af48520032ebb07f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Requerimientos/Features/Auditoria 1303/Auditoria 1303.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Auditoria 1303"
+            }
+          },
+          {
+            "id": "2e90ae55d2b3a793",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Implementations/Sistema de Requerimientos/Requisitos de requerimientos.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Requisitos de requerimientos"
+            }
+          },
+          {
+            "id": "6b8c40b936325594",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Implementations/Sistema de Requerimientos/Requisitos de requerimientos.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Requisitos de requerimientos"
+            }
+          },
+          {
+            "id": "3b0c6c623747059c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "ced29064ca7548b7",
+  "lastOpenFiles": [
+    "Tutorials/Pasar Refs.md",
+    "Requerimientos/Features/Auditoria 1303/Auditoria 1303.md",
+    "Actualizaciones Aurora.md",
+    "Key.md",
+    "Implementations/Notificaciones/Notifications.md",
+    "Tutorials/Pnpm.md",
+    "Tutorials/Actualizar Packages.md",
+    "Fixes/Block Users/Block Users.md",
+    "Requerimientos/Features/Estado Bloqueo 1358/Nuevo estado de bloqueo - 1358.md",
+    "Requerimientos/Resueltos/Denuncias/Denuncias 1393.md",
+    "CLARA/Implementations/Login/Login.md",
+    "CLARA/Fixes/Dev Fixes.md",
+    "Requerimientos/Fixes/Activacion Bloqueo de Tarjetas/Bloqueo de Tarjetas.md",
+    "Tutorials/Typography.md",
+    "Implementations/Sistema de Requerimientos/Sistema de Requerimientos.md",
+    "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
+    "Important Info.canvas",
+    "Como planificar un proyecto.md",
+    "Mejoras para 2026.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "Tutorials/CSS Recomendations.md",
+    "Tutorials/Website Personalities.md",
+    "Implementations/Sistema de Requerimientos/Permisos de Requerimientos.md",
+    "Implementations/Intranet/Intranet.md",
+    "Implementations/Generacion de Plantilla",
+    "Implementations/Sistema de Requerimientos/Requisitos de requerimientos.md",
+    "Tutorials/Volver a Commits pasados.md",
+    "Implementations/Default Colors Aurora/Default Colors.md",
+    "Implementations/Intranet/Marcado Marker.md",
+    "Implementations/Default Colors Aurora/Sin nombre",
+    "Implementations/Default Colors Aurora",
+    "Tutorials/personalitySpectrum.png",
+    "Requerimientos/Features/Param - 1384",
+    "Requerimientos/Fixes/Ip 1386",
+    "Implementations/Parametrizacion",
+    "Implementations/Reportes CNBS",
+    "Requerimientos/Resueltos/Denuncias",
+    "Requerimientos/Features/Reserva RRHH - 1370",
+    "Pasted image 20250801095211.png"
+  ]
+}

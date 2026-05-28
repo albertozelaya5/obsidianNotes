@@ -1,0 +1,9 @@
+{
+  "remoteURL": "https://github.com/albertozelaya5/obsidianNotes.git",
+  "gitLocation": "",
+  "syncinterval": 0,
+  "isSyncOnLoad": false,
+  "checkStatusOnLoad": true,
+  "noticeLevel": "ALL",
+  "showSyncSuccessNotice": true
+}

@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"c4eb39c4b3882c53","type":"text","text":"Glenys Ortiz","x":-124,"y":-70,"width":250,"height":60},
+		{"id":"9d95f4bada3a0a4f","type":"text","text":"Jefe de Proyectos","x":-124,"y":-200,"width":250,"height":60},
+		{"id":"f3972371d19c7c3e","type":"text","text":"2161 - RRHH Pedir comida\n2181 - Gerson\n2229 - Adonis\n2204","x":-124,"y":40,"width":241,"height":120},
+		{"id":"e70bc0ec93990383","type":"text","text":"const [state, dispatch] = useReducer(reducer, initialState)","x":-240,"y":220,"width":482,"height":60}
+	],
+	"edges":[
+		{"id":"542d3b57a9b0e630","fromNode":"9d95f4bada3a0a4f","fromSide":"bottom","toNode":"c4eb39c4b3882c53","toSide":"top"}
+	]
+}
