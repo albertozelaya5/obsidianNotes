@@ -3,6 +3,13 @@ tags:
   - features
   - RESUELTO
 ---
+> [!Tareas por hacer]
+> - [ ] Interpretar seccion 4
+> - [ ] Arreglar el paylaod
+> - [ ] clearingAccountId y clientType son requeridos, borrar useGLAccount
+> - [ ] Fecha valor de liquidacion no va en plantillas
+> - [ ] Terminar seccion 4 una vez mandado los paylaods, y puesto en editar y plantillas
+
 > [!IMPORTANT]
 > -  Incoming = "Enviadas", Outgoing = "Recibidas"
 > - fix/swift-req-590
@@ -19,7 +26,7 @@ tags:
 
 [[Recursos - Swift]]
 
-> [!Tareas por hacer]
+
 
 
 ---

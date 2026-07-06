@@ -1,6 +1,7 @@
 ---
 tags:
   - features
+  - Contabilidad
 ---
 > [!IMPORTANT]
 > - feat/deposits-reports

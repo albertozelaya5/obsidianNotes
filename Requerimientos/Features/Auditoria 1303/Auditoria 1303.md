@@ -2,16 +2,28 @@
 tags:
   - features
 ---
+cf6b260a70c22e7625f650c9a10113e971cca53d
+
 > [!IMPORTANT]
 > - feat/audit-1303
 > - feat/audit-squashed
 > - feat/audit-1303-dev
 > - feat/audit-1303-qa
 
+> [!Tareas por hacer 2]
+> - []  
 
 > [!Tareas por hacer]
-> - Que se pueda ver el padre con sus hijos
-> - Que el registro de auditoria tenga los mismos permisos que el bloqueo administrativo
+> - [x] Que se pueda ver el padre con sus hijos
+> - [x] Sacar el responsable principal de la lista de usuarios
+> - [x] Comentar tabla de contactos
+> - [ ] Hasta que el creador del memorandum de una respuesta, ahi se puede cambiar el responsable principal - si el memo esta respondido, el campo isResponse va a habilitar que se pueda cambiar el responsable
+> - [x] Que el registro de auditoria tenga los mismos permisos que el bloqueo administrativo
+> - [x] Que funcionen el PUT y DELETE de auditoria => Diego
+> - [ ] POST en Hallazgos da error
+> - [ ] Hacer plan de accion
+> - [ ] En `  
+http://172.20.19.11:8000/BackOffice/Memorandums/LevelResolution` GET, quitar el ultimo objeto
 
 > [!IMPORTANT] Respuestas
 > - Un hallazgo y op puede tener varias respuestas
@@ -73,15 +85,6 @@ medios de pago > suscripciones --
 ---
 
 selectClient
-
-
---- Permisos items
-viewItems
-deleteItem
-editItem
-addItem
-deadline
-addMember
 
 ---
 

@@ -11,10 +11,14 @@
             "id": "ced29064ca7548b7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AGRITECH/Landing Page.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Landing Page"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "audit",
+                "query": "pnpm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,17 +166,24 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "ced29064ca7548b7",
   "lastOpenFiles": [
+    "Tutorials/Pnpm.md",
+    "Mejoras para 2026.md",
+    "Actualizaciones Aurora.md",
+    "Como planificar un proyecto.md",
+    "Important Info.canvas",
+    "Key.md",
+    "Sin título.md",
+    "Untitled.base",
+    "Untitled.canvas",
     "Tutorials/Pasar Refs.md",
     "Requerimientos/Features/Auditoria 1303/Auditoria 1303.md",
-    "Actualizaciones Aurora.md",
-    "Key.md",
     "Implementations/Notificaciones/Notifications.md",
-    "Tutorials/Pnpm.md",
     "Tutorials/Actualizar Packages.md",
     "Fixes/Block Users/Block Users.md",
     "Requerimientos/Features/Estado Bloqueo 1358/Nuevo estado de bloqueo - 1358.md",
@@ -183,11 +194,6 @@
     "Tutorials/Typography.md",
     "Implementations/Sistema de Requerimientos/Sistema de Requerimientos.md",
     "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
-    "Important Info.canvas",
-    "Como planificar un proyecto.md",
-    "Mejoras para 2026.md",
-    "Untitled.base",
-    "Untitled.canvas",
     "Tutorials/CSS Recomendations.md",
     "Tutorials/Website Personalities.md",
     "Implementations/Sistema de Requerimientos/Permisos de Requerimientos.md",
@@ -195,8 +201,6 @@
     "Implementations/Generacion de Plantilla",
     "Implementations/Sistema de Requerimientos/Requisitos de requerimientos.md",
     "Tutorials/Volver a Commits pasados.md",
-    "Implementations/Default Colors Aurora/Default Colors.md",
-    "Implementations/Intranet/Marcado Marker.md",
     "Implementations/Default Colors Aurora/Sin nombre",
     "Implementations/Default Colors Aurora",
     "Tutorials/personalitySpectrum.png",
