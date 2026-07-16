@@ -1,6 +1,5 @@
 - [[Validación DNI En Banca - Clientes]]
 - [[Token - Codigos De Acceso]]
 - [[Clientes relacionados 1193]]
-- [[Swift - 1116 (Antes 590)]]
 - [[Clientes relacionados 1193]]
 - 

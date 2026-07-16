@@ -2,6 +2,11 @@
 > - [ ] Nueva sección de productos
 > - [ ] sección de proveedores (parecida a cards de productos)
 > - [ ] sección de calculadora
+> - [ ] Mover secciones a otras partes de la pagina
+> - [ ] Poner componentes productos inspirados en dribble con las personalidades
+> - [ ] Poner componentes proveedores...
+> - [ ] Poner componente calculadora...
+
 
 
 > [!TODO]

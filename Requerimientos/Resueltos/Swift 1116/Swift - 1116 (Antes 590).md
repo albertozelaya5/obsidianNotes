@@ -6,6 +6,12 @@ tags:
 > [!Tareas por hacer]
 > - [ ] Cuando se actualiza, se debe recargar el endpoint para que se pueda aprobar o rechazar
 
+> [!IMPORTANT]
+> - CommonInputs.tsx
+> - /banhcafe-internalwebapp/src/pages/international/swift/transfers/components/modals/approve-modal/ApproveAmount.tsx
+> - banhcafe-internalwebapp/src/pages/international/swift/transfers/components/modals/ModalDetail.tsx
+
+
 
 
 > [!IMPORTANT]
