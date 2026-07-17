@@ -11,10 +11,14 @@
             "id": "ae064a45a940c20a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Key.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Key"
             }
           }
         ]
@@ -190,8 +194,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "cc8624ef1b8cef22",
+  "active": "ae064a45a940c20a",
   "lastOpenFiles": [
+    "Sin título.md",
+    "Mejoras para 2026.md",
+    "Important Info.canvas",
+    "Como planificar un proyecto.md",
+    "Actualizaciones Aurora.md",
+    "optimizacion-medios.md",
     "Tutorials/Pnpm.md",
     "Requerimientos/Features/Contabilidad/TGR - 1345.md",
     "Requerimientos/Features/Contabilidad",
@@ -204,7 +214,6 @@
     "Tutorials/Git/Git Comandos.md",
     "Tutorials/Git",
     "Tutorials/Como usar MAC.md",
-    "Sin título.md",
     "Requerimientos/Features/SIPAD 341/SIPAD 341.md",
     "Requerimientos/Features/SIPAD 341",
     "Requerimientos/Features/Auditoria 1303/Permisos 1303 MIA.md",
@@ -221,15 +230,10 @@
     "Implementations/Reportes CNBS/Reportes Regulatorios CNBS 1340.md",
     "Implementations/Recursos humanos/Generador de planilla.md",
     "Implementations/Recursos humanos",
-    "Claude/Modelos.md",
     "Claude",
-    "AGRITECH/Definicion de Proyecto.md",
-    "AGRITECH/Cosas a hacer.md",
     "AGRITECH",
     "Untitled.canvas",
     "Untitled.base",
-    "Tutorials/Pnpm and Bun.md",
-    "Important Info.canvas",
     "Becas KAAD Formulario.png",
     "Tutorials/personalitySpectrum.png",
     "Fotografia/Shortcut.png",
