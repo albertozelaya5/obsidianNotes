@@ -1,56 +1,37 @@
 {
   "main": {
-    "id": "c3e8b94bd17d321d",
+    "id": "b8d83177942d7286",
     "type": "split",
     "children": [
       {
-        "id": "175f33e9ee1f5831",
+        "id": "f9e37d568649227b",
         "type": "tabs",
         "children": [
           {
-            "id": "880c06770f80bcf3",
+            "id": "ae064a45a940c20a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGRITECH/Cosas a hacer.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Cosas a hacer"
-            }
-          },
-          {
-            "id": "8a294ab1d5ff6676",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGRITECH/Cosas a hacer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cosas a hacer"
+              "title": "Nueva pestaña"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1a45085562dd59c8",
+    "id": "3c5c5e8f23bb05ec",
     "type": "split",
     "children": [
       {
-        "id": "a1a3a7ba66998a6e",
+        "id": "abb362b103c2c07f",
         "type": "tabs",
         "children": [
           {
-            "id": "e8278d379ef4b45e",
+            "id": "cc8624ef1b8cef22",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,12 +44,12 @@
             }
           },
           {
-            "id": "0b54ce48c17c74e5",
+            "id": "26344a2f26568bbb",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "personaliti",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,53 +61,48 @@
             }
           },
           {
-            "id": "47a9e4a326e2f6f6",
+            "id": "888a094a63efac17",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
+            }
+          },
+          {
+            "id": "b46623fa4873ba48",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 300
   },
   "right": {
-    "id": "826e5bbfe173cf13",
+    "id": "5dac1ad3f36d8aaa",
     "type": "split",
     "children": [
       {
-        "id": "cb47214092956d11",
+        "id": "2c71e6ccdde7328c",
         "type": "tabs",
         "children": [
           {
-            "id": "af48520032ebb07f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Requerimientos/Features/Auditoria 1303/Auditoria 1303.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Esquema de Auditoria 1303"
-            }
-          },
-          {
-            "id": "2e90ae55d2b3a793",
+            "id": "d167840db1f4de8a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Implementations/Sistema de Requerimientos/Requisitos de requerimientos.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "file": "Opciones de Becas.md",
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -134,43 +110,72 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Requisitos de requerimientos"
+              "title": "Enlaces entrantes de Opciones de Becas"
             }
           },
           {
-            "id": "6b8c40b936325594",
+            "id": "0d263974413e2336",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Implementations/Sistema de Requerimientos/Requisitos de requerimientos.md",
+                "file": "Opciones de Becas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Requisitos de requerimientos"
+              "title": "Enlaces salientes de Opciones de Becas"
             }
           },
           {
-            "id": "3b0c6c623747059c",
+            "id": "38d10524e91726f6",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "8cbc7377bcc38e77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Opciones de Becas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Opciones de Becas"
+            }
+          },
+          {
+            "id": "056bdbc04d92622a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -178,54 +183,64 @@
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
+      "bases:Crear nueva base": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8a294ab1d5ff6676",
+  "active": "cc8624ef1b8cef22",
   "lastOpenFiles": [
-    "AGRITECH/Definicion de Proyecto.md",
-    "AGRITECH/Cosas a hacer.md",
-    "Tutorials/Website Personalities.md",
-    "Requerimientos/Resueltos/Swift 1116/Swift - 1116 (Antes 590).md",
-    "Requerimientos/Resueltos/Requerimientos Resueltos.md",
-    "Tutorials/Git/Git Comandos.md",
-    "Tutorials/Enviar Req a QA.md",
-    "Tutorials/Actualizar Packages.md",
+    "Tutorials/Pnpm.md",
     "Requerimientos/Features/Contabilidad/TGR - 1345.md",
-    "Requerimientos/Features/Disp de Confianza 1333/Dispositivos de Confianza 1333.md",
-    "REUNIONES/REU 30-06-2026.md",
-    "REUNIONES/REU 15-07-2026.md",
-    "Requerimientos/Resueltos/Validación DNI En Banca - Clientes.md",
-    "Requerimientos/Features/Solicitudes - Informativa/Informative - 1244.md",
+    "Requerimientos/Features/Contabilidad",
+    "Tutorials/Validations/Validaciones condicionales.md",
+    "Tutorials/Validations",
+    "Tutorials/React hook form/`.test()` y `this.parent`.md",
     "Tutorials/React hook form/Re renderizar.md",
+    "Tutorials/React hook form/Dependency array.md",
+    "Tutorials/React hook form",
+    "Tutorials/Git/Git Comandos.md",
+    "Tutorials/Git",
+    "Tutorials/Como usar MAC.md",
     "Sin título.md",
-    "Actualizaciones Aurora.md",
+    "Requerimientos/Features/SIPAD 341/SIPAD 341.md",
+    "Requerimientos/Features/SIPAD 341",
+    "Requerimientos/Features/Auditoria 1303/Permisos 1303 MIA.md",
+    "REUNIONES/REU 30-06-2026.md",
+    "REUNIONES/REU 29-06-2026.md",
+    "REUNIONES/REU 15-07-2026.md",
     "REUNIONES/REU 09-07-2026.md",
-    "Requerimientos/Features/Contabilidad/1345 TGR.md",
-    "Requerimientos/Features/Carnet 1256/Carnet - 1256.md",
+    "REUNIONES/REU 07-07-2026.md",
+    "REUNIONES/REU 03-07-2026.md",
+    "REUNIONES/REU 02-07-2026.md",
+    "REUNIONES/REU 01-07-2026.md",
+    "REUNIONES",
     "Implementations/Token de Empleados/Token de Empleados - 1399.md",
-    "Implementations/Clientes en Mora.md",
-    "Implementations/Sin nombre",
+    "Implementations/Reportes CNBS/Reportes Regulatorios CNBS 1340.md",
+    "Implementations/Recursos humanos/Generador de planilla.md",
+    "Implementations/Recursos humanos",
     "Claude/Modelos.md",
     "Claude",
-    "Requerimientos/Features/Contabilidad",
-    "Requerimientos/Resueltos/Swift 1116/Recursos - Swift.md",
-    "REUNIONES/REU 07-07-2026.md",
-    "REUNIONES/REU 01-07-2026.md",
-    "Tutorials/Validations",
-    "Implementations/Recursos humanos",
-    "Important Info.canvas",
-    "Untitled.base",
+    "AGRITECH/Definicion de Proyecto.md",
+    "AGRITECH/Cosas a hacer.md",
+    "AGRITECH",
     "Untitled.canvas",
-    "Implementations/Generacion de Plantilla",
-    "Implementations/Default Colors Aurora/Sin nombre",
-    "Implementations/Default Colors Aurora",
+    "Untitled.base",
+    "Tutorials/Pnpm and Bun.md",
+    "Important Info.canvas",
+    "Becas KAAD Formulario.png",
     "Tutorials/personalitySpectrum.png",
-    "Requerimientos/Features/Param - 1384",
-    "Pasted image 20250801095211.png"
+    "Fotografia/Shortcut.png",
+    "Fotografia/temperatura ejemplo.png",
+    "Fotografia/SEPARACIÓN COMPLEMENTARIA.png",
+    "Fotografia/ARMONÍA DE LA TRÍADA.png",
+    "Fotografia/ARMONÍA MONOCROMÁTICA.png",
+    "Fotografia/ARMONÍA COMPLEMENTARIA.png",
+    "Fotografia/ARMONÍA ANÁLOGA.png",
+    "Fotografia/Apertura_ejemplo.png",
+    "obsidianNotes/Untitled.canvas",
+    "obsidianNotes/Important Info.canvas"
   ]
 }
