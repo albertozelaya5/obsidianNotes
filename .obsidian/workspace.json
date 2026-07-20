@@ -4,25 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "175f33e9ee1f5831",
+        "id": "1a68fc446fe80d81",
         "type": "tabs",
         "children": [
           {
-            "id": "880c06770f80bcf3",
+            "id": "b5093addd117693e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGRITECH/Cosas a hacer.md",
+                "file": "Tutorials/Pase a Produccion Aurora.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cosas a hacer"
+              "title": "Pase a Produccion Aurora"
             }
           },
           {
-            "id": "8a294ab1d5ff6676",
+            "id": "3385233378e17da2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +35,7 @@
               "title": "Cosas a hacer"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "personaliti",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,13 +108,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Requerimientos/Features/Auditoria 1303/Auditoria 1303.md",
+                "file": "Tutorials/Pase a Produccion Aurora.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Auditoria 1303"
+              "title": "Esquema de Pase a Produccion Aurora"
             }
           },
           {
@@ -185,47 +184,47 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "8a294ab1d5ff6676",
+  "active": "b5093addd117693e",
   "lastOpenFiles": [
-    "AGRITECH/Definicion de Proyecto.md",
+    "REUNIONES/REU 17-07-2026.md",
+    "Tutorials/Pase a Produccion Aurora.md",
     "AGRITECH/Cosas a hacer.md",
-    "Tutorials/Website Personalities.md",
-    "Requerimientos/Resueltos/Swift 1116/Swift - 1116 (Antes 590).md",
-    "Requerimientos/Resueltos/Requerimientos Resueltos.md",
-    "Tutorials/Git/Git Comandos.md",
-    "Tutorials/Enviar Req a QA.md",
-    "Tutorials/Actualizar Packages.md",
+    "REUNIONES/REU 01-07-2026.md",
+    "REUNIONES/REU 02-07-2026.md",
     "Requerimientos/Features/Contabilidad/TGR - 1345.md",
-    "Requerimientos/Features/Disp de Confianza 1333/Dispositivos de Confianza 1333.md",
-    "REUNIONES/REU 30-06-2026.md",
-    "REUNIONES/REU 15-07-2026.md",
-    "Requerimientos/Resueltos/Validación DNI En Banca - Clientes.md",
-    "Requerimientos/Features/Solicitudes - Informativa/Informative - 1244.md",
-    "Tutorials/React hook form/Re renderizar.md",
-    "Sin título.md",
-    "Actualizaciones Aurora.md",
-    "REUNIONES/REU 09-07-2026.md",
-    "Requerimientos/Features/Contabilidad/1345 TGR.md",
-    "Requerimientos/Features/Carnet 1256/Carnet - 1256.md",
-    "Implementations/Token de Empleados/Token de Empleados - 1399.md",
-    "Implementations/Clientes en Mora.md",
+    "Tutorials/CSS/Media Queries.md",
+    "Tutorials/CSS/Container Guidelines.md",
+    "Tutorials/Actualizar Packages.md",
+    "Tutorials/Como usar MAC.md",
+    "Tutorials/DropDown Button.md",
+    "Tutorials/Estados RTK Query.md",
+    "Tutorials/Form en Partes.md",
+    "Tutorials/Global State.md",
+    "Tutorials/Ignorar archivos ts.md",
+    "Tutorials/MultiSelect Popup.md",
+    "Tutorials/Pasar Refs.md",
+    "Tutorials/Pivot Grid.md",
+    "Tutorials/Pnpm.md",
+    "Tutorials/Scroll into Element.md",
+    "Tutorials/Volver a Commits pasados.md",
+    "Tutorials/CSS/Website Personalities.md",
+    "Tutorials/CSS/Typography.md",
+    "Tutorials/CSS/personalitySpectrum.png",
+    "Tutorials/CSS/CSS Recomendations.md",
+    "Tutorials/CSS",
+    "Tutorials/CSS/Colors.md",
+    "Requerimientos/Resueltos/Swift 1116/Swift - 1116 (Antes 590).md",
+    "Important Info.canvas",
     "Implementations/Sin nombre",
-    "Claude/Modelos.md",
     "Claude",
     "Requerimientos/Features/Contabilidad",
-    "Requerimientos/Resueltos/Swift 1116/Recursos - Swift.md",
-    "REUNIONES/REU 07-07-2026.md",
-    "REUNIONES/REU 01-07-2026.md",
     "Tutorials/Validations",
     "Implementations/Recursos humanos",
-    "Important Info.canvas",
     "Untitled.base",
     "Untitled.canvas",
     "Implementations/Generacion de Plantilla",
     "Implementations/Default Colors Aurora/Sin nombre",
     "Implementations/Default Colors Aurora",
-    "Tutorials/personalitySpectrum.png",
-    "Requerimientos/Features/Param - 1384",
     "Pasted image 20250801095211.png"
   ]
 }

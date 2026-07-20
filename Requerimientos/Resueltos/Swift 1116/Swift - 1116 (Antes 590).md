@@ -5,6 +5,7 @@ tags:
 ---
 > [!Tareas por hacer]
 > - [ ] Cuando se actualiza, se debe recargar el endpoint para que se pueda aprobar o rechazar
+> - [ ] ignorar el campo `interbankSettlementDate` al seleccionar una plantilla
 
 > [!IMPORTANT]
 > - CommonInputs.tsx

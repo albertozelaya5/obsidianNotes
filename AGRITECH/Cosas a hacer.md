@@ -6,6 +6,10 @@
 > - [ ] Poner componentes productos inspirados en dribble con las personalidades
 > - [ ] Poner componentes proveedores...
 > - [ ] Poner componente calculadora...
+> - [ ] depende del tipo en simulacion, va a cambiar el producto (fijarse en el html y el excel)
+> - [ ] hacer boton de imprimir
+
+
 
 
 
