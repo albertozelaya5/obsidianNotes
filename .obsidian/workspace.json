@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Pase a Produccion Aurora.md",
+                "file": "Tutorials/CSS/Linear gradient.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pase a Produccion Aurora"
-            }
-          },
-          {
-            "id": "3385233378e17da2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGRITECH/Cosas a hacer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cosas a hacer"
+              "title": "Linear gradient"
             }
           }
         ]
@@ -67,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "box-sha",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Pase a Produccion Aurora.md",
+                "file": "Tutorials/CSS/Linear gradient.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Pase a Produccion Aurora"
+              "title": "Esquema de Linear gradient"
             }
           },
           {
@@ -186,34 +172,34 @@
   },
   "active": "b5093addd117693e",
   "lastOpenFiles": [
-    "REUNIONES/REU 17-07-2026.md",
-    "Tutorials/Pase a Produccion Aurora.md",
-    "AGRITECH/Cosas a hacer.md",
-    "REUNIONES/REU 01-07-2026.md",
-    "REUNIONES/REU 02-07-2026.md",
-    "Requerimientos/Features/Contabilidad/TGR - 1345.md",
-    "Tutorials/CSS/Media Queries.md",
-    "Tutorials/CSS/Container Guidelines.md",
+    "Tutorials/CSS/Inset Shadow.md",
+    "Tutorials/CSS/Linear gradient.md",
+    "AGRITECH/Definicion de Proyecto.md",
+    "Tutorials/CSS/Tailwind Prettier.md",
+    "Tutorials/Comandos Claude.md",
+    "Tutorials/Instalar Eslint.md",
+    "Actualizaciones Aurora.md",
+    "Tutorials/Pnpm.md",
+    "Tutorials/Optimizar imágenes.md",
+    "Tutorials/CSS/CSS Recomendations.md",
+    "Mejoras para 2026.md",
+    "Tutorials/Validations/Validaciones condicionales.md",
     "Tutorials/Actualizar Packages.md",
+    "Tutorials/Ands, Ors, etc.md",
     "Tutorials/Como usar MAC.md",
     "Tutorials/DropDown Button.md",
+    "Tutorials/Enviar Req a QA.md",
     "Tutorials/Estados RTK Query.md",
     "Tutorials/Form en Partes.md",
     "Tutorials/Global State.md",
-    "Tutorials/Ignorar archivos ts.md",
     "Tutorials/MultiSelect Popup.md",
-    "Tutorials/Pasar Refs.md",
-    "Tutorials/Pivot Grid.md",
-    "Tutorials/Pnpm.md",
-    "Tutorials/Scroll into Element.md",
     "Tutorials/Volver a Commits pasados.md",
+    "Tutorials/Scroll into Element.md",
+    "AGRITECH/Cosas a hacer.md",
     "Tutorials/CSS/Website Personalities.md",
-    "Tutorials/CSS/Typography.md",
+    "Componentes/Images Drag Drop.md",
     "Tutorials/CSS/personalitySpectrum.png",
-    "Tutorials/CSS/CSS Recomendations.md",
     "Tutorials/CSS",
-    "Tutorials/CSS/Colors.md",
-    "Requerimientos/Resueltos/Swift 1116/Swift - 1116 (Antes 590).md",
     "Important Info.canvas",
     "Implementations/Sin nombre",
     "Claude",

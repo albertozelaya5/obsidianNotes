@@ -1,16 +1,6 @@
 > [!TODO]
-> - [ ] Nueva sección de productos
-> - [ ] sección de proveedores (parecida a cards de productos)
-> - [ ] sección de calculadora
-> - [ ] Mover secciones a otras partes de la pagina
-> - [ ] Poner componentes productos inspirados en dribble con las personalidades
-> - [ ] Poner componentes proveedores...
-> - [ ] Poner componente calculadora...
-> - [ ] depende del tipo en simulacion, va a cambiar el producto (fijarse en el html y el excel)
-> - [ ] hacer boton de imprimir
-
-
-
+> - [x] En los inputs del form, que si o si se muestren los decimales con 2 caracteres
+> - [ ] 
 
 
 > [!TODO]
