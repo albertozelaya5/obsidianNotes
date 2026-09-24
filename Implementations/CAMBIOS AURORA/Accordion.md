@@ -1,0 +1,1 @@
+En `itemTitleRender` => poner la opcion de si se quiere un titulo customizado, y en caso si mandar un componente

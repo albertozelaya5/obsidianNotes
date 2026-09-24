@@ -1,5 +1,4 @@
 - Command es windows
-- commmand k para entrar a una carpeta compartida
 - command m para minimizar
 - `shift command 4` => tomar captura de pantalla
 - `shift command 3`=> tomar captura pantalla completa

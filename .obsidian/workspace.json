@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1a68fc446fe80d81",
+        "id": "cedf8bb966292c9d",
         "type": "tabs",
         "children": [
           {
-            "id": "b5093addd117693e",
+            "id": "a4b62f8bfbe9c71c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Git Workflow Aurora.md",
+                "file": "NVIM/Tutorial - Neovim desde cero.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git Workflow Aurora"
-            }
-          },
-          {
-            "id": "8eb88fb50466b166",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorials/CSS/CSS Recomendations.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CSS Recomendations"
+              "title": "Tutorial - Neovim desde cero"
             }
           }
         ]
@@ -55,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -67,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "permission",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,9 +71,12 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           }
         ]
@@ -108,13 +99,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AGRITECH/Cosas a hacer.md",
+                "file": "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Cosas a hacer"
+              "title": "Esquema de Generación de Plantilla"
             }
           },
           {
@@ -184,47 +175,53 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "b5093addd117693e",
+  "active": "a4b62f8bfbe9c71c",
   "lastOpenFiles": [
-    "Tutorials/Pase a Produccion Aurora.md",
-    "Tutorials/Git Workflow Aurora.md",
-    "Tutorials/Git Workflow Aurora.md",
-    "Tutorials/Enviar Req a QA.md",
-    "Tutorials/Estados RTK Query.md",
-    "Como planificar un proyecto.md",
-    "Tutorials/Git/Git Comandos.md",
-    "Mejoras para 2026.md",
-    "Implementations/Sistema de Requerimientos/Permisos de Requerimientos.md",
-    "Claude/Modelos.md",
-    "Actualizaciones Aurora.md",
-    "Requerimientos/Resueltos/Token - Codigos De Acceso.md",
-    "Requerimientos/Resueltos/Validación DNI En Banca - Clientes.md",
-    "Requerimientos/Resueltos/Requerimientos Resueltos.md",
-    "Implementations/Cuentas Mula/Cuentas mula.md",
-    "Fixes/Solicitudes.md",
-    "Sin título.md",
-    "Important Info.canvas",
-    "AGRITECH/Cosas a hacer.md",
-    "Tutorials/Plantilla Proyectos.md",
-    "Tutorials/CSS/CSS Recomendations.md",
-    "AGRITECH/Definicion de Proyecto.md",
-    "Componentes/Botones.md",
+    "Tutorials/Permisos Aurora- Mia.md",
+    "NVIM/Tutorial - Neovim desde cero.md",
+    "NVIM",
     "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
-    "Tutorials/CSS/Linear gradient.md",
-    "Tutorials/CSS/Inset Shadow.md",
-    "Tutorials/CSS/Tailwind Prettier.md",
+    "Implementations/Contabilidad - Tasa seguridad/Contabilidad - Tasa seguridad - Diego.md",
+    "Implementations/On Boarding/Onboarding Creación de Clientes.md",
+    "Implementations/CAMBIOS AURORA/Aurora General.md",
+    "Implementations/CAMBIOS AURORA/Accordion.md",
+    "Tutorials/CSS/CSS Recomendations.md",
+    "Implementations/CAMBIOS AURORA",
+    "Requerimientos/Features/SIPAD 341/SIPAD 341.md",
+    "PYME/Definicion CLAUDE.md",
+    "AGRITECH/Definicion de Proyecto.md",
+    "PYME/Pendientes.md",
+    "PYME/Definicion de Proyecto.md",
+    "Implementations/Default Colors Aurora/Default Colors.md",
+    "Requerimientos/Features/Disp de Confianza 1333/Dispositivos de Confianza 1333.md",
+    "REUNIONES/REU 20-07-2026.md",
+    "Implementations/Contabilidad - Tasa seguridad",
+    "Important Info.canvas",
+    "Como planificar un proyecto.md",
+    "Key.md",
+    "Mejoras para 2026.md",
+    "Pasted image 20260825145423.png",
+    "Pasted image 20260825151511.png",
+    "Pasted image 20260827095257.png",
+    "Pasted image 20260902154836.png",
+    "Pasted image 20260902154840.png",
+    "Actualizaciones Aurora.md",
+    "AGRITECH/Cosas a hacer.md",
+    "Tutorials/Git Workflow Aurora.md",
+    "PYME",
+    "Tutorials/Global State.md",
+    "Tutorials/Ignorar archivos ts.md",
+    "Tutorials/Instalar Eslint.md",
+    "Tutorials/MultiSelect Popup.md",
+    "BANHCAFE COLLECTIONS",
+    "Implementations/On Boarding",
+    "Pasted image 20260825151703.png",
     "Tutorials/CSS/personalitySpectrum.png",
     "Tutorials/CSS",
-    "Implementations/Sin nombre",
     "Claude",
     "Requerimientos/Features/Contabilidad",
     "Tutorials/Validations",
-    "Implementations/Recursos humanos",
-    "Untitled.base",
     "Untitled.canvas",
-    "Implementations/Generacion de Plantilla",
-    "Implementations/Default Colors Aurora/Sin nombre",
-    "Implementations/Default Colors Aurora",
     "Pasted image 20250801095211.png"
   ]
 }
