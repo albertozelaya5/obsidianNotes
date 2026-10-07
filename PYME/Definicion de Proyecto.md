@@ -2,9 +2,9 @@ El proyecto es para ver la facturación de las PYMES, va a usar Typescript, zust
 
 La pantalla principal sera un Dashboard que muestre facturas pendientes, ingresos, resumen de facturas y resumen de ventas
 
-- Vender — pantalla de punto de venta (POS). Buscás productos por nombre/código, los agregás al carrito, seleccionás cliente y procesás el cobro ("Ir al pago"), una vez pagado, se piuede descargar el recibo, enviar por email o imprimir
+- Vender — pantalla de punto de venta (POS). Buscás productos por nombre/código, los agregás al carrito, seleccionás cliente y procesás el cobro ("Ir al pago"), una vez pagado, se puede descargar el recibo, enviar por email o imprimir
 - Pedidos — lista de pedidos abiertos/pendientes (distinto de una venta directa en "Vender"). Se puede filtrar por artículo/cliente y por estado, esta no la pude ver mucho porque no me permite editarla xd
-- Productos — catálogo de artículos del negocio: alta, edición, categorías, exportar e importar productos.
+- Productos — catálogo de artículos del negocio: alta, edición, categorías, exportar e importar productos. (registro de productos)
 - Catálogo Online — genera una tienda web pública (link tipo tunombre.kyte.site) para que los clientes vean/compren productos online. Pide nombre del comercio e identificación fiscal. - esto no se si es que solo te hago un POST para crear el sitio y ya, o shit si te crea la pagina
 - Clientes — CRM básico: registro y búsqueda de clientes para asociarlos a ventas/pedidos.
 - Transacciones — historial de ventas con resumen rápido (hoy, ayer, semana, mes) y búsqueda por cliente/producto.

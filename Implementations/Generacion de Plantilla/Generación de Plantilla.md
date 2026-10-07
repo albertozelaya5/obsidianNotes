@@ -9,6 +9,27 @@
 > - Quitar error que si viene vacio que hace falta crear plantilla
 > - Cuando los filtros esten vacios, recargar, el de "Empleado"
 
+> [!ERROR] Flujo que estaba antes
+```typescript
+const dispatch = useAppDispatch();
+
+const { data, isLoading, isFetching, isSuccess } = useGetPayrollQuery({ page, size, ...queryFilters });
+
+const hasWarnedNoTemplate = useRef(false);
+
+useEffect(() => {
+if (isSuccess && !isFetching && !hasRows && !hasWarnedNoTemplate.current) {
+  hasWarnedNoTemplate.current = true;
+  dispatch(
+	addNotification({
+	  message: ["Debe generar una plantilla para continuar"],
+	  type: "error",
+	}),
+  );
+}
+}, [isSuccess, isFetching, hasRows, dispatch]);
+```
+
 statusProcess
 
 
@@ -81,3 +102,14 @@ botones:
 />
 ```
 
+commit 013f2911c361318177b055e68e8c3688d4a7fa43 (HEAD -> feat/payroll-generator, origin/feat/payroll-generator)
+Author: albertozelaya <ajzelaya@banhcafe.hn>
+Date:   Wed Oct 7 10:12:07 2026 -0600
+
+    fix: quit error when is no data
+
+commit 1bd3924feb5c3d874bd3c0fe2a6f8cb38abad34e
+Author: albertozelaya <ajzelaya@banhcafe.hn>
+Date:   Wed Oct 7 08:57:08 2026 -0600
+
+    feat: add new column "optional1"

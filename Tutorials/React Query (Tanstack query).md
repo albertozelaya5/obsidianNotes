@@ -66,11 +66,11 @@ Y regala gratis: caché compartida entre componentes, deduplicación de peticion
 
 ## 2. Modelo mental: server state vs client state
 
-|              | **Client state**                             | **Server state**                                          |
-| ------------ | -------------------------------------------- | -------------------------------------------------------- |
-| Ejemplo      | sidebar abierto, filtros del form, tema      | lista de deudores, detalle de un pago                    |
-| Dueño        | tu app                                       | el backend (tu copia siempre puede estar vieja)         |
-| Herramienta  | `useState` / **zustand**                     | **React Query**                                          |
+|             | **Client state**                        | **Server state**                                |
+| ----------- | --------------------------------------- | ----------------------------------------------- |
+| Ejemplo     | sidebar abierto, filtros del form, tema | lista de deudores, detalle de un pago           |
+| Dueño       | tu app                                  | el backend (tu copia siempre puede estar vieja) |
+| Herramienta | `useState` / **zustand**                | **React Query**                                 |
 
 > [!IMPORTANT] Regla del proyecto
 > El estado de servidor **NO** va en zustand. zustand es solo sesión (`authStore`) y UI cross-cutting (sidebar, tema). Todo lo que venga de la API vive en React Query.

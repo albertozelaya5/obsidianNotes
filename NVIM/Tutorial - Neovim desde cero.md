@@ -33,6 +33,7 @@ Dentro de Neovim (en modo Normal):
 2. Escribe normalmente.
 3. Presiona `Esc` para volver al modo Normal.
 
+> [!TIP]
 Otras formas útiles de entrar a Insertar son `a` (escribe después del cursor), `o` (crea una línea nueva abajo) y `O` (crea una línea nueva arriba).
 
 ## 3. Moverte (en modo Normal)
@@ -92,3 +93,4 @@ nvim +Tutor
 Te toma unos 30 minutos y te enseña con práctica real.
 
 Al principio se siente lento, pero en una o dos semanas vas a moverte más rápido que con el mouse.
+

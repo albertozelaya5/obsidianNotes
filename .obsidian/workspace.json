@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "cedf8bb966292c9d",
+        "id": "c796518690479876",
         "type": "tabs",
         "children": [
           {
-            "id": "a4b62f8bfbe9c71c",
+            "id": "33d34314608e401a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NVIM/Tutorial - Neovim desde cero.md",
+                "file": "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial - Neovim desde cero"
+              "title": "Generación de Plantilla"
+            }
+          },
+          {
+            "id": "b6432eda605d0a81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tutorials/Shadcn UI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Shadcn UI"
             }
           }
         ]
@@ -55,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "permission",
+                "query": "payroll",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +93,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -175,52 +190,53 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "a4b62f8bfbe9c71c",
+  "active": "33d34314608e401a",
   "lastOpenFiles": [
-    "Tutorials/Permisos Aurora- Mia.md",
-    "NVIM/Tutorial - Neovim desde cero.md",
-    "NVIM",
-    "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
-    "Implementations/Contabilidad - Tasa seguridad/Contabilidad - Tasa seguridad - Diego.md",
-    "Implementations/On Boarding/Onboarding Creación de Clientes.md",
-    "Implementations/CAMBIOS AURORA/Aurora General.md",
-    "Implementations/CAMBIOS AURORA/Accordion.md",
-    "Tutorials/CSS/CSS Recomendations.md",
-    "Implementations/CAMBIOS AURORA",
-    "Requerimientos/Features/SIPAD 341/SIPAD 341.md",
+    "Tutorials/Ruta de Estudio AgriTech.md",
+    "Tutorials/TanStack Router y Start.md",
+    "AGRITECH/Cosas a hacer.md",
+    "Tutorials/Shadcn UI.md",
     "PYME/Definicion CLAUDE.md",
-    "AGRITECH/Definicion de Proyecto.md",
-    "PYME/Pendientes.md",
-    "PYME/Definicion de Proyecto.md",
-    "Implementations/Default Colors Aurora/Default Colors.md",
-    "Requerimientos/Features/Disp de Confianza 1333/Dispositivos de Confianza 1333.md",
-    "REUNIONES/REU 20-07-2026.md",
+    "NVIM/Lazygit.md",
+    "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
+    "NVIM/Nvim en Visual Studio.md",
+    "NVIM/Atajos de búsqueda.md",
+    "Tutorials/React Query (Tanstack query).md",
+    "NVIM/Tmux.md",
+    "NVIM/Terminal.md",
+    "Requerimientos/Features/SIPAD 341/SIPAD 341.md",
+    "Tutorials/CSS/CSS Recomendations.md",
+    "Tutorials/Como usar MAC.md",
+    "Tutorials/React hook form/`.test()` y `this.parent`.md",
+    "NVIM/Tutorial - Neovim desde cero.md",
+    "NVIM/Atajos Lazyvim.md",
+    "Implementations/Mia/Permisos MIA.md",
+    "MOBILE/Ruta React Native.md",
+    "Implementations/Recursos humanos/Generador de planilla.md",
+    "MOBILE",
+    "NVIM/Atajos LazyVim.md",
+    "Tutorials/Scroll into Element.md",
+    "Tutorials/Git Workflow Aurora.md",
+    "Tutorials/Estados RTK Query.md",
+    "Actualizaciones Aurora.md",
+    "Pasted image 20260928102110.png",
+    "PYME/Productos",
+    "NVIM",
+    "Implementations/CAMBIOS AURORA",
     "Implementations/Contabilidad - Tasa seguridad",
     "Important Info.canvas",
-    "Como planificar un proyecto.md",
-    "Key.md",
-    "Mejoras para 2026.md",
     "Pasted image 20260825145423.png",
     "Pasted image 20260825151511.png",
     "Pasted image 20260827095257.png",
     "Pasted image 20260902154836.png",
     "Pasted image 20260902154840.png",
-    "Actualizaciones Aurora.md",
-    "AGRITECH/Cosas a hacer.md",
-    "Tutorials/Git Workflow Aurora.md",
     "PYME",
-    "Tutorials/Global State.md",
-    "Tutorials/Ignorar archivos ts.md",
-    "Tutorials/Instalar Eslint.md",
-    "Tutorials/MultiSelect Popup.md",
     "BANHCAFE COLLECTIONS",
     "Implementations/On Boarding",
     "Pasted image 20260825151703.png",
     "Tutorials/CSS/personalitySpectrum.png",
     "Tutorials/CSS",
     "Claude",
-    "Requerimientos/Features/Contabilidad",
-    "Tutorials/Validations",
     "Untitled.canvas",
     "Pasted image 20250801095211.png"
   ]
