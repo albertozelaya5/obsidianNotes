@@ -285,7 +285,7 @@ function Providers() {
 
 | ¿Quién hace qué? | |
 | --- | --- |
-| **Router `loader`** | *Cuándo* traer datos (antes de mostrar la página, al hacer hover sobre un `<Link>`) |
+| **Router `loader`** | *Cuándo* traer datos (antes de mostrar la página; o al hacer hover sobre un `<Link>` si activás `defaultPreload: "intent"`) |
 | **React Query** | *Cachear*, invalidar después de una mutación, refetch en background |
 
 > [!tip]
