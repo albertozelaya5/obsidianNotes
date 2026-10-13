@@ -5,169 +5,137 @@ tags:
   - atajos
 ---
 
-> [!note] Nota
-> `<leader>` = Barra espaciadora (por defecto en LazyVim).
-> Todos los atajos son en modo normal, salvo que se indique otro modo.
+> [!note] Cómo leer esta nota
+> `Espacio` es la tecla **líder** de LazyVim. `Espacio e` = presiona Espacio, suéltalo y luego `e`.
+> Todo es en **modo Normal**. Si te pierdes, presiona `Esc`.
+> ¿Olvidaste un atajo? Presiona `Espacio` y **espera**: aparece un menú con todos.
+> Más detalle: [[Atajos de búsqueda]] · [[Nvim en Visual Studio]] · [[Tmux]]
 
-## Moverse entre pestañas (buffers)
+## 1. Abrir y salir
 
-Las "pestañas" de arriba en LazyVim son **buffers** (archivos abiertos).
-
-| Atajo | Acción |
+| Comando / atajo | Qué hace |
 |---|---|
-| `Shift + l` (L) | Siguiente buffer |
-| `Shift + h` (H) | Buffer anterior |
-| `]b` / `[b` | Siguiente / anterior (alternativa) |
-| `<leader>bb` | Saltar al último buffer usado |
-| `<leader>,` o `<leader>fb` | Buscador con la lista de buffers |
+| `nvim .` | Abre nvim en la carpeta actual (escríbelo en la terminal) |
+| `Ctrl + s` | Guardar (también funciona escribiendo) |
+| `:w` + Enter | Guardar |
+| `Espacio q q` | Salir de nvim (te avisa si hay cambios sin guardar) |
+| `:q!` + Enter | Salir **sin guardar** |
 
-### Pestañas reales de Vim (tab pages)
+## 2. Los modos (lo mínimo)
 
-| Atajo | Acción |
+| Tecla | Modo | Para qué |
+|---|---|---|
+| `i` | Insertar | Escribir texto |
+| `Esc` | Normal | Moverte y dar órdenes (también quita el resaltado de búsqueda) |
+| `v` / `V` | Visual | Seleccionar letras / líneas completas |
+| `:` | Comando | Escribir órdenes como `:w` |
+
+## 3. Explorador de archivos
+
+| Atajo | Qué hace |
 |---|---|
-| `gt` / `gT` | Siguiente / anterior pestaña |
-| `<leader><tab>]` / `<leader><tab>[` | Siguiente / anterior pestaña |
+| `Espacio e` | Abrir / cerrar el explorador |
+| `Ctrl + h` | Pasar el foco **al explorador** (izquierda) |
+| `Ctrl + l` | Volver **al código** (derecha) |
 
-> [!tip] Tip
-> Presiona `Espacio` y espera: el menú de which-key muestra todos los atajos disponibles.
+Dentro del explorador:
 
-## Buscar palabras en común (variables, estados, etc.)
+| Tecla         | Qué hace                                          |
+| ------------- | ------------------------------------------------- |
+| `j` / `k`     | Bajar / subir                                     |
+| `Enter` o `l` | Abrir archivo o carpeta                           |
+| `h`           | Cerrar carpeta                                    |
+| `a`           | Crear archivo (termina en `/` para crear carpeta) |
+| `r`           | Renombrar                                         |
+| `d`           | Borrar                                            |
+| `/`           | Filtrar por nombre                                |
+| `H`           | Mostrar / ocultar archivos ocultos (`.env`…)      |
+| `?`           | Ver todas las teclas del explorador               |
+| `I`           | Ignorados por git (.env, node_modules, dist…)     |
 
-### Ver y navegar en el archivo actual
+## 4. Archivos abiertos (las "pestañas" de arriba)
 
-| Atajo | Acción |
+| Atajo | Qué hace |
 |---|---|
-| `*` / `#` | Buscar la palabra bajo el cursor adelante / atrás y resaltarlas |
-| `n` / `N` | Siguiente / anterior coincidencia |
-| `]]` / `[[` | Siguiente / anterior referencia resaltada |
-| `Esc` o `:noh` | Quitar el resaltado |
+| `Shift + l` / `Shift + h` | Siguiente / anterior archivo abierto |
+| `Espacio b b` | Volver al archivo anterior (ir y venir entre dos) |
+| `Espacio ,` | Lista de archivos abiertos para elegir |
+| `Espacio b d` | **Cerrar el archivo actual** |
+| `Espacio b o` | Cerrar todos menos el actual |
 
-### Ver dónde se usa en todo el proyecto
+## 5. Buscar (lo más usado)
 
-| Atajo | Acción |
+| Atajo             | Qué hace                                                                   |
+| ----------------- | -------------------------------------------------------------------------- |
+| `Espacio Espacio` | Buscar **archivo por nombre**                                              |
+| `Espacio /`       | Buscar **texto en todo el proyecto**                                       |
+| `Espacio s w`     | Buscar en el proyecto **la palabra bajo el cursor**                        |
+| `/texto` + Enter  | Buscar en **este archivo** (como Ctrl+F); `n` / `N` = siguiente / anterior |
+| `Espacio f r`     | Archivos recientes                                                         |
+
+Todo lo de búsqueda está en [[Atajos de búsqueda]].
+
+## 6. Buscar componentes -  Moverse con el codigo
+
+| Atajo       | Qué hace                                                |
+| ----------- | ------------------------------------------------------- |
+| `g d`       | Ir a la **definición** de lo que está bajo el cursor    |
+| `g r`       | Ver **dónde se usa**                                    |
+| `K`         | Ver info / tipo (como pasar el mouse encima en VS Code) |
+| `Ctrl + o`  | **Regresar** a donde estabas antes de saltar            |
+| `g g` / `G` | Ir al inicio / final del archivo                        |
+
+## 7. Editar código
+
+| Atajo | Qué hace |
 |---|---|
-| `gr` | Lista de referencias (LSP) |
-| `gd` | Ir a la definición |
-| `<leader>sw` | Buscar la palabra bajo el cursor en el proyecto |
-| `<leader>/` | Buscar cualquier texto en el proyecto (grep) |
+| `u` / `Ctrl + r` | Deshacer / rehacer |
+| `Espacio c r` | **Renombrar** variable o función en todo el proyecto |
+| `Espacio c a` | Acciones rápidas (importar, arreglar error…), como el foco amarillo de VS Code |
+| `Espacio c f` | Formatear el archivo (Prettier) |
+| `] d` / `[ d` | Ir al siguiente / anterior error o aviso |
 
-## Editar todas a la vez
+**Cambiar una palabra una por una:** cursor en la palabra → `*` → `cgn` → escribe → `Esc` → `.` repite en la siguiente (`n` para saltarla).
 
-- `<leader>cr` → Renombrar con LSP en todos los archivos (lo mejor para variables, funciones, estados, props).
-- `<leader>sr` → Buscar y reemplazar en todo el proyecto (panel grug-far). En **Flags** pon `-i` para ignorar mayúsculas.
+**Escribir en varias líneas a la vez:** `Ctrl + v` → baja con `j` → `Shift + i` → escribe → `Esc`.
 
-### En el archivo actual
+## 8. Comentar código
 
-**Forma 1: con el asterisco** (usa la palabra bajo el cursor)
+| Atajo              | Qué hace                                   |
+| ------------------ | ------------------------------------------ |
+| `g c c`            | Comentar / descomentar **la línea actual** |
+| `V` → `j`… → `g c` | Comentar **varias líneas** seleccionadas   |
+| `5 g c c`          | Comentar **5 líneas** desde el cursor      |
+| `g c a p`          | Comentar un **bloque** (párrafo, función)  |
 
-1. Cursor en la palabra → `*`
-2. `:%s//nuevoNombre/g`
+## 9. Ventanas (archivos lado a lado)
 
-**Forma 2: escribiendo la palabra directamente**
-
-```vim
-:%s/palabra/nueva/g
-```
-
-| Opción | Qué hace |
+| Atajo | Qué hace |
 |---|---|
-| `/g` | Reemplaza todas las coincidencias exactas |
-| `/gi` | Ignora mayúsculas y minúsculas (`palabra`, `Palabra`, `PALABRA`) |
-| `/gc` | Pide confirmación en cada cambio (`y` sí, `n` no) |
-| `/gic` | Ignora mayúsculas y pide confirmación |
+| `Espacio \|` | Dividir a la derecha |
+| `Espacio -` | Dividir abajo |
+| `Ctrl + h / j / k / l` | Moverte entre divisiones (← ↓ ↑ →) |
+| `Espacio w d` | Cerrar la división actual |
 
-> [!warning] Cuidado
-> Usa `%` (todo el archivo), no `$` (solo la última línea).
-> En código evita `/gi`: puede cambiar cosas distintas como `queryClient` y `QueryClient`.
+> [!warning] Cerrar archivo ≠ cerrar ventana
+> `Espacio b d` cierra el **archivo**. `Espacio w d` cierra la **división**, y el archivo sigue abierto.
+> Si solo tienes una ventana, `Espacio w d` no hace nada útil.
 
-### Editar o borrar una por una
+## 10. Git y terminal
 
-**Cambiar:**
-
-1. Cursor en la palabra → `*`
-2. `cgn` → escribir el texto nuevo → `Esc`
-3. `.` para repetir en la siguiente, `n` para saltarla.
-
-**Borrar:**
-
-1. Cursor en la palabra → `*`
-2. `dgn`
-3. `.` para repetir, `n` para saltar.
-
-## Editar varias líneas a la vez
-
-Se hace con el **modo visual de bloque** (`Ctrl + v`).
-
-**Escribir al inicio de varias líneas:**
-
-1. `Ctrl + v` → bajar con `j` para seleccionar las líneas
-2. `Shift + i` (I) → escribir el texto → `Esc`
-3. El texto aparece en todas las líneas al presionar `Esc`.
-
-**Escribir al final de varias líneas:**
-
-1. `Ctrl + v` → bajar con `j`
-2. `$` → `Shift + a` (A) → escribir → `Esc`
-
-**Borrar una columna de texto:**
-
-1. `Ctrl + v` → seleccionar con `j` / `l`
-2. `d`
-
-**Comentar varias líneas:**
-
-1. `V` (V mayúscula) → seleccionar con `j`
-2. `gc`
-
-| Atajo | Acción |
+| Atajo | Qué hace |
 |---|---|
-| `Ctrl + v` | Modo visual de bloque (columnas) |
-| `V` | Seleccionar líneas completas |
-| `I` / `A` | Insertar al inicio / al final (en bloque) |
-| `gc` | Comentar / descomentar la selección |
-| `gcc` | Comentar / descomentar la línea actual |
+| `Espacio g g` | Abrir **lazygit** (`q` para salir) |
+| `Ctrl + /` | Abrir / cerrar una terminal flotante |
 
-## Recomendación
+## 11. Practicar con nvim "puro" (sin LazyVim)
 
-> [!tip] Recomendación
-> Para código (ej. un estado de React): usa `gr` para ver dónde se usa y `<leader>cr` para renombrarlo. El LSP entiende el código y no toca palabras iguales sin relación.
-> Para texto normal: `:%s/palabra/nueva/g`.
-> Para agregar algo en muchas líneas: `Ctrl + v` + `I` o `A`.
+Tu config de LazyVim **desactiva el tutorial**, así que `nvim +Tutor` da error. Usa:
 
-commit bbe95e549a6ef9672bf44b05f44a31170d8f1d22 (HEAD -> fix/comparer-core-req-341)
-Author: albertozelaya <ajzelaya@banhcafe.hn>
-Date:   Wed Sep 23 11:56:32 2026 -0600
+| Comando (en la terminal) | Qué hace |
+|---|---|
+| `nvim --clean +Tutor` | Abre el **tutorial interactivo** en nvim sin plugins (~30 min) |
+| `nvim --clean` | nvim vanilla, sin tu config (para practicar o ver si algo falla por un plugin) |
+| `vimtutor` | Tutorial clásico de Vim (alternativa) |
 
-    feat: add modal ModalFileTimeline, and delete multiple fields
-
-commit 6c747644af8ffa0ad84ce6777b57b8585e76a311
-Author: albertozelaya <ajzelaya@banhcafe.hn>
-Date:   Wed Sep 23 10:55:00 2026 -0600
-
-    feat: add new no correlative screen
-
-commit f67d55c89f2213c151d65449cb8fc524bf685cd0
-Merge: b9ac80d84 07428cef2
-Author: albertozelaya <ajzelaya@banhcafe.hn>
-Date:   Wed Sep 23 10:53:23 2026 -0600
-
-    Merge branch 'master' into fix/comparer-core-req-341
-
-commit b9ac80d84b5c3b98de2801243585bf196b393f23 (origin/fix/comparer-core-req-341)
-Author: albertozelaya <ajzelaya@banhcafe.hn>
-Date:   Thu Sep 17 11:01:13 2026 -0600
-
-    feat: add statusFileId
-
-commit 07428cef23b4dd73e924dee7e67019afa7f518b2 (origin/master, origin/HEAD, master)
-Merge: 6b79ebaa7 53911ff4f
-Author: Alberto Javier Zelaya Matamoros <ajzelaya@banhcafe.hn>
-Date:   Mon Sep 14 22:02:38 2026 +0000
-
-    Merged PR 979: feat: Accordion optional pagination (local + server-side)
-    
-    When paginated is omitted the component behaves exactly as before. The
-    original panel rendering + selectedItems state is extracted unchanged into
-    AccordionPanels and remounted per page via key.
-    
-    Related work items: #152
+Dentro del tutorial, `:Tutor` lista las lecciones y `:q!` sale.

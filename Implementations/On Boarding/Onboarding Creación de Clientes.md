@@ -7,17 +7,9 @@ Creación de clientes dentro y fuera de Aurora
 
 
 > [!TODO] Cosas que hacer
-> - Esos rangos de depositos y retiros
-> - Quitar tarjeta de debito (priductos) que el la pueda reclamar donde quiera => SOLO EN LA INFORMATIVA
-> - downloadDocuments
+> - PASAR TODA LA PLATAFORMA A UNA APP NUEVA, CON SU PROPIO LOGIN
+> - Agregar biometrico, subir y mandar foto de la identidad (responsivo)
 
-Entonces la recomendación para cuando mergees a master:
-
-1. Avisar a quien genera el dist que hay una dependencia nueva.
-2. Que antes de buildear corran npm ci (usa exactamente lo que dice package-lock.json, más seguro que npm install para producción) o al menos npm install.
-3. Si hacen eso, el dist sale limpio y sin el problema que viste en dev.
-
-Si simplemente copian una carpeta dist que ya tenían generada de antes (sin rebuildear tras el merge), tampoco hay riesgo — ese dist viejo ni siquiera tiene el código de la firma todavía.
 
 ![[Pasted image 20260827095257.png]]
 

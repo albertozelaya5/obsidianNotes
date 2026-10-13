@@ -49,11 +49,11 @@ Interfaz visual de git en la terminal: ves archivos cambiados, ramas y commits, 
 
 **Desde cualquier panel**
 
-| Atajo | Qué hace       |
-| ----- | -------------- |
+| Atajo | Qué hace             |
+| ----- | -------------------- |
 | `P`   | **Push** (mayúscula) |
 | `p`   | **Pull** (minúscula) |
-| `f`   | Fetch          |
+| `f`   | Fetch                |
 
 > [!important] Flujo diario
 > `<leader>gg` → `2` → `espacio` en los archivos (o `a` para todos) → `c` → mensaje → `Enter` → `P` → `q`

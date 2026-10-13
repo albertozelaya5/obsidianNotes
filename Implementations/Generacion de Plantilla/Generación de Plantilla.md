@@ -32,8 +32,6 @@ if (isSuccess && !isFetching && !hasRows && !hasWarnedNoTemplate.current) {
 
 statusProcess
 
-
-
 En el componente src/pages/HumanResources/payroll/payroll-processing/PayrollList.tsx, va a haber un campo nuevo llamado `statusProcess`, en este, cuando se creen los registros mediante "Nueva", y por defecto el primer estado de `statusProcess` sera "EN PROCESO", 
 
 Mientras este en proceso podrá => darle a "Nueva" para generar, y visualizar datos

@@ -8,31 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33d34314608e401a",
+            "id": "503b39df908dd220",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
+                "file": "NVIM/Atajos Lazyvim.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Generación de Plantilla"
+              "title": "Atajos Lazyvim"
             }
           },
           {
-            "id": "b6432eda605d0a81",
+            "id": "9672c0f0c45ba384",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Shadcn UI.md",
+                "file": "Tutorials/React Query (Tanstack query).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shadcn UI"
+              "title": "React Query (Tanstack query)"
+            }
+          },
+          {
+            "id": "b40a3163c67f7a00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NVIM/Tmux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tmux"
             }
           }
         ]
@@ -69,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "payroll",
+                "query": "PYME",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,8 +107,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -190,35 +203,37 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "33d34314608e401a",
+  "active": "503b39df908dd220",
   "lastOpenFiles": [
-    "Tutorials/Ruta de Estudio AgriTech.md",
-    "Tutorials/TanStack Router y Start.md",
+    "PYME/Definicion de Proyecto.md",
+    "PYME/Definicion CLAUDE.md",
+    "Implementations/On Boarding/Onboarding Creación de Clientes.md",
+    "NVIM/Tmux.md",
+    "Tutorials/React Query (Tanstack query).md",
+    "PYME/Productos/Registro - creacion.md",
+    "NVIM/Atajos Lazyvim.md",
+    "NVIM/Lazygit.md",
+    "NVIM/Atajos de búsqueda.md",
+    "Actualizaciones Aurora.md",
+    "Tutorials/Estados RTK Query.md",
+    "PYME/Pendientes.md",
+    "Cosas a Hacer.md",
+    "NVIM/Tutorial - Neovim desde cero.md",
+    "NVIM/Terminal.md",
+    "Implementations/Banca Clientes Automatico/Quitar update button.md",
+    "NVIM/Nvim en Visual Studio.md",
+    "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
+    "Implementations/Banca Clientes Automatico",
+    "AGRITECH/Definicion de Proyecto.md",
+    "NVIM/Nvim en Visual Studio.md.tmp.23343.81d039eccafe",
     "AGRITECH/Cosas a hacer.md",
     "Tutorials/Shadcn UI.md",
-    "PYME/Definicion CLAUDE.md",
-    "NVIM/Lazygit.md",
-    "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
-    "NVIM/Nvim en Visual Studio.md",
-    "NVIM/Atajos de búsqueda.md",
-    "Tutorials/React Query (Tanstack query).md",
-    "NVIM/Tmux.md",
-    "NVIM/Terminal.md",
+    "Tutorials/Ruta de Estudio AgriTech.md",
+    "Tutorials/TanStack Router y Start.md",
     "Requerimientos/Features/SIPAD 341/SIPAD 341.md",
     "Tutorials/CSS/CSS Recomendations.md",
     "Tutorials/Como usar MAC.md",
-    "Tutorials/React hook form/`.test()` y `this.parent`.md",
-    "NVIM/Tutorial - Neovim desde cero.md",
-    "NVIM/Atajos Lazyvim.md",
-    "Implementations/Mia/Permisos MIA.md",
-    "MOBILE/Ruta React Native.md",
-    "Implementations/Recursos humanos/Generador de planilla.md",
     "MOBILE",
-    "NVIM/Atajos LazyVim.md",
-    "Tutorials/Scroll into Element.md",
-    "Tutorials/Git Workflow Aurora.md",
-    "Tutorials/Estados RTK Query.md",
-    "Actualizaciones Aurora.md",
     "Pasted image 20260928102110.png",
     "PYME/Productos",
     "NVIM",
@@ -235,8 +250,6 @@
     "Implementations/On Boarding",
     "Pasted image 20260825151703.png",
     "Tutorials/CSS/personalitySpectrum.png",
-    "Tutorials/CSS",
-    "Claude",
     "Untitled.canvas",
     "Pasted image 20250801095211.png"
   ]

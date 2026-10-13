@@ -1,3 +1,5 @@
+Plataforma de control de facturación y finanzas para pequeñas y medianas empresas, con posibilidad de gestión de cuentas bancarias y pagos de impuestos
+
 El proyecto es para ver la facturación de las PYMES, va a usar Typescript, zustand, react query, tailwind
 
 La pantalla principal sera un Dashboard que muestre facturas pendientes, ingresos, resumen de facturas y resumen de ventas
