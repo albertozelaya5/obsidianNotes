@@ -10,6 +10,7 @@ tags:
 > [!IMPORTNAT] Cosas por hacer
 > - Hacer un split, dynamic build
 > - Cuando entre, que se vaya hasta arriba
+> - Que cuando le de click a pdf lo dirija a otro lado antes de descargarlo
 
 ---
 **Estado:** `useState` + `useReducer` (nativo, sin Redux) **Estilos:** Tailwind CSS (utility-first, sin configurar nada) **Fetch:** `fetch` nativo con un custom hook `useFetch` simple (no necesitas Axios para solo 3 endpoints) **Checkboxes:** estado controlado con `useState` array/objeto

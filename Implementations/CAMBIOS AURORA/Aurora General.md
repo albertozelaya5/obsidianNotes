@@ -1,0 +1,1 @@
+- [ ] quitar re render al abrir modales
