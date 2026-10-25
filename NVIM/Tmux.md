@@ -69,4 +69,42 @@ nvim .
 - **El prefijo son dos pasos:** `Ctrl + a`, **soltar**, y luego la tecla.
 - **Editaste `~/.tmux.conf`:** `Ctrl + a` → `r` para recargarla.
 
+## 6. En Windows (WezTerm)
+
+En Windows no hay tmux: se usa **WezTerm** configurado igual. Mismo prefijo **`Ctrl + a`** y mismos atajos de las secciones 2 y 3.
+
+> [!info] Dónde está la configuración
+> - Atajos, sesiones y guardado: `~/.wezterm.lua`
+> - Comandos `tmux` en PowerShell: `~/.wezterm-tmux.ps1`, cargado desde el perfil (`notepad $PROFILE` → línea `. "$HOME\.wezterm-tmux.ps1"`)
+> - En nvim: **smart-splits.nvim** en lugar de vim-tmux-navigator, así `Ctrl + h / j / k / l` cruza entre nvim y los paneles de WezTerm
+
+| En tmux (Mac)                       | En WezTerm (Windows)                                                        |
+| ----------------------------------- | --------------------------------------------------------------------------- |
+| `tmux new -A -s pyme`               | Igual. Fuera de WezTerm, abre WezTerm directo en esa sesión                 |
+| `tmux ls` · `tmux a -t pyme`        | Igual                                                                       |
+| `tmux kill-session -t pyme`         | Igual                                                                       |
+| `Ctrl + a` → `d`                    | Igual (o `tmux detach`)                                                     |
+| Ventanas `Ctrl + a` → `c`, `1`, `2` | Igual, se ven como **pestañas** abajo                                       |
+| Copiar con `Option` + `Cmd + c`     | Seleccionar con el mouse y `Ctrl + Shift + c`, o `Ctrl + a` → `[` (`v` selecciona, `y` copia, `q` sale) |
+| `Ctrl + a` en la shell (inicio de línea) | `Ctrl + a` **dos veces** (una sola es el prefijo)                      |
+
+**Extras de WezTerm:** `Ctrl + a` → `q` numera los paneles para saltar a uno · `Ctrl + a` → `N` nueva sesión con nombre · `Ctrl + a` → `s` cambiar de sesión · `tmux rename-session -t pyme nuevo`.
+
+### Revivir después de apagar la compu
+
+Funciona como tmux-resurrect + tmux-continuum, sin instalar nada más:
+
+- Cada **5 minutos** (y al salir con `Ctrl + a` → `d`) se guardan todas las sesiones: paneles, cómo están divididos, la carpeta de cada uno y si tenía nvim abierto.
+- Al prender la compu y **abrir WezTerm**, las sesiones vuelven solas en unos segundos.
+- A mano: `Ctrl + a` → `Ctrl + s` guarda · `Ctrl + a` → `Ctrl + r` restaura (también `tmux save` / `tmux restore`).
+
+> [!warning] Lo que no vuelve
+> Los programas que estaban corriendo, salvo nvim: `pnpm dev` hay que lanzarlo de nuevo. Lo hecho después del último guardado (máximo 5 min) se pierde.
+
+### Si algo no funciona en Windows
+
+- **`tmux` no se reconoce:** falta la línea en el perfil de PowerShell (ver arriba) y abrir una terminal nueva.
+- **`Ctrl + h / j / k / l` no sale de nvim:** `:SmartSplitsLog` dentro de nvim muestra el error.
+- **Editaste `~/.wezterm.lua`:** se recarga solo al guardar; si no, `Ctrl + a` → `r`.
+
 Relacionado: [[Atajos Lazyvim]] · [[Terminal]] · [[Lazygit]]
