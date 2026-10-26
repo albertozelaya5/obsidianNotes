@@ -8,6 +8,13 @@
 > - [ ] Si quieren poner el nuevo expediente manual (en el mismo modal poner el input), y al confirmar cambios llamar a un endpoint para ver si este existe => tenerlo en cuenta
 > - [ ] `/backOffice/DigitalArchiveProcess/FileTimeline?fileId=133764` => poner acordion, y dentro del acordion una tabla comparativa de como estaba antes y como esta ahora => si solo existe un objeto, poner (no existen cambios ultimamente)
 
+### Permisos MIA
+
+> [!IMPORTANT] Grupos y politicas
+> - ADMIN-SEGUIMIENTO-DOCUMENTACION-AD
+> - LECTURA-SEGUIMIENTO-DOCUMENTACION-AD
+
+
 bd865833425c29481c0b601bc3f0674befe856a0
 
 -- a0cd827a9e8c6f52b1a51e39300215f7a077a8b0

@@ -1,5 +1,9 @@
 # Pendientes — BANHCAFE Pyme
 
+> [!IMPORTANT] Tareas a hacer
+> - subir a repositorio
+> - que se permitan tokens de solo 3 digitos - temporal
+
 Proyecto: `/Users/albertozelaya/Documents/Backup ALBERTO 2/banhcafe-projects/BANHCAFE-Pyme`
 
 > Las líneas corresponden al código al 2026-09-18. Si editas los archivos se corren; para relocalizar los TODO usa `grep -rn "TODO" src`.
@@ -55,7 +59,7 @@ Hoy la sesión es simulada: el store arranca autenticado con un "Usuario Demo" y
   - `src/app/Header.tsx:50` (comentario TODO)
   - `src/app/Header.tsx:53` (el botón "Ayuda")
 
-## 5. Secciones por construir
+	## 5. Secciones por construirz
 
 Hoy son páginas "Próximamente" (`components/ComingSoon.tsx`, usado en la línea 7 de cada archivo). Para cada una: crear `src/features/<nombre>/` (modelo: `features/dashboard`), reemplazar el `ComingSoon` de la página y, si aplica, pasar de mock a endpoint real.
 

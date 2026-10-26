@@ -2,7 +2,7 @@
 tags:
   - features
 ---
-[[Permisos MIA]]
+[[AURORA/Requerimientos/Features/Modulos de Pagos 944/Permisos MIA]]
 
 > [!IMPORTANT]
 > - feat/payments-req-944

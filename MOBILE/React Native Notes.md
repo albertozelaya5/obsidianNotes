@@ -23,7 +23,8 @@ En los componentes como `index.tsx` se usan ciertos componentes para sustituir l
 | `Text`       | Se usa para escribir texto                                                                                                                         |
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `View`       | Para ver información (excepto arrays)                                                                                                              |
-| `ScrollView` | Para ver información (Para arrays, como padre de `View`) (es el UNICO que no funciona con `style`; sino `contentContainerStyle` - que es lo mismo) |
+| `ScrollView` | Contenedor con scroll. Dibuja **todos** sus hijos de una vez: para contenido corto o fijo (formulario, pantalla de detalle). Ver [[#`style` vs `contentContainerStyle`]] |
+| `FlatList`   | Lista con scroll que dibuja **solo lo visible**: para listas largas o de una API. Recibe `data`, `renderItem` y `keyExtractor` en vez de hijos con `.map` |
 | `Image`      | Ver imagenes, acepta `source={{ uri: pokemon.image }}` para agregar la url, ocupa `width` y `height` como otras props                              |
 |              |                                                                                                                                                    |
 Pressable component
@@ -47,6 +48,25 @@ const styles = StyleSheet.create({
   },
 });
 ```
+
+### `style` vs `contentContainerStyle`
+`ScrollView` y `FlatList` (que está hecho sobre `ScrollView`) aceptan los dos:
+
+| `style`                 | El **marco**: la caja que hace scroll (tamaño, fondo del área visible, bordes) |
+| ----------------------- | ------------------------------------------------------------------------------ |
+| `contentContainerStyle` | El **contenido** que se desplaza dentro (`padding`, `gap`, centrado)           |
+| `columnWrapperStyle`    | Solo `FlatList` con `numColumns` > 1: estiliza cada fila                       |
+
+```tsx
+<FlatList
+  data={berries}
+  keyExtractor={(item) => item.name}
+  renderItem={({ item }) => <Text>{item.name}</Text>}
+  style={{ backgroundColor: "#eee" }}               //* el marco
+  contentContainerStyle={{ padding: 16, gap: 8 }}   //* el contenido
+/>
+```
+> [!TIP] El `padding` va en `contentContainerStyle`: en `style` el contenido se recorta en los bordes al hacer scroll
 
 ### `_Layout.tsx` para ver las pages
 Al crear un componente dentro de la carpeta `app` este sera una ruta, por lo que debe ser en minúscula

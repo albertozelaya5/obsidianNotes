@@ -13,13 +13,13 @@ tags:
 
 ## 1. Abrir y salir
 
-| Comando / atajo | Qué hace |
-|---|---|
-| `nvim .` | Abre nvim en la carpeta actual (escríbelo en la terminal) |
-| `Ctrl + s` | Guardar (también funciona escribiendo) |
-| `:w` + Enter | Guardar |
-| `Espacio q q` | Salir de nvim (te avisa si hay cambios sin guardar) |
-| `:q!` + Enter | Salir **sin guardar** |
+| Comando / atajo | Qué hace                                                  |
+| --------------- | --------------------------------------------------------- |
+| `nvim .`        | Abre nvim en la carpeta actual (escríbelo en la terminal) |
+| `Ctrl + s`      | Guardar (también funciona escribiendo)                    |
+| `:w` + Enter    | Guardar                                                   |
+| `Espacio q q`   | Salir de nvim (te avisa si hay cambios sin guardar)       |
+| `:q!` + Enter   | Salir **sin guardar**                                     |
 
 ## 2. Los modos (lo mínimo)
 
@@ -72,6 +72,7 @@ Dentro del explorador:
 | `Espacio s w`     | Buscar en el proyecto **la palabra bajo el cursor**                        |
 | `/texto` + Enter  | Buscar en **este archivo** (como Ctrl+F); `n` / `N` = siguiente / anterior |
 | `Espacio f r`     | Archivos recientes                                                         |
+| `*` + `n` o `N`   | Ponerse sobre la palabra e ir a la siguiente/anterior referencia           |
 
 Todo lo de búsqueda está en [[Atajos de búsqueda]].
 
@@ -85,15 +86,23 @@ Todo lo de búsqueda está en [[Atajos de búsqueda]].
 | `Ctrl + o`  | **Regresar** a donde estabas antes de saltar            |
 | `g g` / `G` | Ir al inicio / final del archivo                        |
 
-## 7. Editar código
+## 7. Editar código - Cambiar nombres - Errores Typecript  
 
-| Atajo | Qué hace |
-|---|---|
-| `u` / `Ctrl + r` | Deshacer / rehacer |
-| `Espacio c r` | **Renombrar** variable o función en todo el proyecto |
-| `Espacio c a` | Acciones rápidas (importar, arreglar error…), como el foco amarillo de VS Code |
-| `Espacio c f` | Formatear el archivo (Prettier) |
-| `] d` / `[ d` | Ir al siguiente / anterior error o aviso |
+| Atajo                                                                                                                                                                                  | Qué hace                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| `u` / `Ctrl + r`                                                                                                                                                                       | Deshacer / rehacer                                                             |
+| `Espacio c r`                                                                                                                                                                          | **Renombrar** variable o función en todo el proyecto                           |
+| `Espacio c a`                                                                                                                                                                          | Acciones rápidas (importar, arreglar error…), como el foco amarillo de VS Code |
+| `Espacio c f`                                                                                                                                                                          | Formatear el archivo (Prettier)                                                |
+| `Espacio c u`                                                                                                                                                                          | **Quitar imports no usados** (atajo propio, en `config/keymaps.lua`)           |
+| `Espacio o c`                                                                                                                                                                          | **Organizar imports**: quita los no usados y los ordena (= `Ctrl+Shift+O` de VS Code). Cambiado de `Espacio c o` en `plugins/lsp-keys.lua` |
+| Cursor en la variable → `Ctrl + \`                                                                                                                                                       | **console.log formateado** debajo de la línea (no hace falta copiar nada; en visual usa lo seleccionado, p. ej. `data.results`): `console.log('🚀: index.tsx -> #11 -> pokemons ~', JSON.stringify(pokemons, null, 2));` (atajo propio, en `config/keymaps.lua`) |
+| Cursor en la variable → `Espacio \`                                                                                                                                                                | Igual, pero **sin** `JSON.stringify` (imprime la variable tal cual)            |
+| `V` (o `v $`) en la línea del `{` → `Espacio t i`                                                                                                                                      | **JSON → interfaz TS**: reemplaza el objeto por sus interfaces (basta con seleccionar la línea del `{`, se amplía solo hasta su `}`); pide el nombre (por defecto `RootObject`). Atajo propio, en `config/keymaps.lua` (usa la extensión json-to-ts de VS Code + node) |
+| `Espacio t i` (modo normal)                                                                                                                                                            | Igual, pero con el JSON **copiado en el portapapeles**: pega las interfaces debajo de la línea (= `Ctrl+Shift+Alt+V` de VS Code) |
+| `] d` / `[ d`                                                                                                                                                                          | Ir al siguiente / anterior error o aviso                                       |
+| 1. Pon el cursor sobre la palabra y pulsa `*` para buscarla.<br>2. Pulsa `cgn`, escribe el nombre nuevo y pulsa `Esc`.<br>3. Pulsa `.` para cambiar la siguiente, o `n` para saltarla. | Uno por uno, decidiendo en cada ocurrencia:                                    |
+| `Espacio cd`                                                                                                                                                                           | Muestra el error de la línea actual en un popup                                |
 
 **Cambiar una palabra una por una:** cursor en la palabra → `*` → `cgn` → escribe → `Esc` → `.` repite en la siguiente (`n` para saltarla).
 
@@ -116,6 +125,9 @@ Todo lo de búsqueda está en [[Atajos de búsqueda]].
 | `Espacio -` | Dividir abajo |
 | `Ctrl + h / j / k / l` | Moverte entre divisiones (← ↓ ↑ →) |
 | `Espacio w d` | Cerrar la división actual |
+| `Espacio u w` | Activar / desactivar el **ajuste de línea** (wrap) en la ventana actual |
+
+**Ajuste de línea:** las líneas largas se parten para caber en la ventana, sin scroll horizontal (= "Word Wrap" de VS Code). Está activado por defecto en `config/options.lua`. Es solo visual: el archivo no cambia. La continuación empieza con `↪` y conserva la sangría, y `j` / `k` bajan por las líneas que ves en pantalla.
 
 > [!warning] Cerrar archivo ≠ cerrar ventana
 > `Espacio b d` cierra el **archivo**. `Espacio w d` cierra la **división**, y el archivo sigue abierto.

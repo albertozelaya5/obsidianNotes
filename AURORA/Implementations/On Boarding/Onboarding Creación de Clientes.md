@@ -8,7 +8,9 @@ Creación de clientes dentro y fuera de Aurora
 
 > [!TODO] Cosas que hacer
 > - PASAR TODA LA PLATAFORMA A UNA APP NUEVA, CON SU PROPIO LOGIN
-> - Agregar biometrico, subir y mandar foto de la identidad (responsivo)
+> - Agregar biometrico, subir y mandar foto de la identidad (responsivo) => esto sera asi => paso 2, se sube foto de la persona tomada en ese momento, mas foto reves y derecho de la identidad
+
+
 
 
 ![[Pasted image 20260827095257.png]]

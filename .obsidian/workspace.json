@@ -4,39 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "c796518690479876",
+        "id": "9416f35938a4c097",
         "type": "tabs",
         "children": [
           {
-            "id": "503b39df908dd220",
+            "id": "7ddeb54373063c45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NVIM/Atajos Lazyvim.md",
+                "file": "Tutorials/Enviar Req a QA (requerimiento).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Atajos Lazyvim"
+              "title": "Enviar Req a QA (requerimiento)"
             }
           },
           {
-            "id": "9672c0f0c45ba384",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorials/React Query (Tanstack query).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "React Query (Tanstack query)"
-            }
-          },
-          {
-            "id": "b40a3163c67f7a00",
+            "id": "44d0f9382a602518",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,8 +34,23 @@
               "icon": "lucide-file",
               "title": "Tmux"
             }
+          },
+          {
+            "id": "d0163248505459ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AURORA/Requerimientos/Features/SIPAD 341/SIPAD 341 - RICCY CAMBIOS FECHAS(VIDEO) Y BANCO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SIPAD 341 - RICCY CAMBIOS FECHAS(VIDEO) Y BANCO"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "PYME",
+                "query": "tmux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -203,54 +204,55 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "503b39df908dd220",
+  "active": "e8278d379ef4b45e",
   "lastOpenFiles": [
-    "PYME/Definicion de Proyecto.md",
-    "PYME/Definicion CLAUDE.md",
-    "Implementations/On Boarding/Onboarding Creación de Clientes.md",
-    "NVIM/Tmux.md",
-    "Tutorials/React Query (Tanstack query).md",
-    "PYME/Productos/Registro - creacion.md",
-    "NVIM/Atajos Lazyvim.md",
     "NVIM/Lazygit.md",
+    "GIT/Comandos Git.md",
+    "NVIM/Tmux.md",
+    "AURORA/Implementations/On Boarding/Onboarding Creación de Clientes.md",
+    "MOBILE/Ruta React Native.md",
+    "MOBILE/Platform specific code.md",
+    "MOBILE/Core components.md",
+    "MOBILE/React Native Notes.md",
+    "Tutorials/Enviar Req a QA (requerimiento).md",
+    "AURORA/Implementations/Sistema de Requerimientos/Permisos de Requerimientos.md",
+    "Tutorials/Pase a Produccion Aurora.md",
+    "AURORA/Requerimientos/Features/SIPAD 341/SIPAD 341 - RICCY CAMBIOS FECHAS(VIDEO) Y BANCO.md",
+    "AURORA/Ramas a Revisar.md",
+    "Important Info.canvas",
+    "AURORA/Implementations/Contabilidad - Tasa seguridad/Contabilidad - Tasa seguridad - Diego.md",
+    "Claude/Skills.md",
+    "Claude/Modelos.md",
+    "Claude/Como guardar chats.md",
+    "Claude/claude-code-multi-cuenta.md",
+    "AURORA/Implementations/DOCKERFILE/Dockerfile node version.md",
+    "AURORA/Implementations/DOCKERFILE",
+    "GIT",
+    "NVIM/Atajos Lazyvim.md",
+    "AURORA/Implementations/Generacion de Plantilla/Generación de Plantilla.md",
+    "AURORA/Implementations/Banca/Quitar +504.md",
+    "AURORA/Implementations/Sistema de Requerimientos/Evaluaciones/Evaluations.tsx.md",
+    "PYME/Definicion CLAUDE.md",
+    "MIA/COSAS POR HACER.md",
     "NVIM/Atajos de búsqueda.md",
-    "Actualizaciones Aurora.md",
-    "Tutorials/Estados RTK Query.md",
-    "PYME/Pendientes.md",
-    "Cosas a Hacer.md",
-    "NVIM/Tutorial - Neovim desde cero.md",
-    "NVIM/Terminal.md",
-    "Implementations/Banca Clientes Automatico/Quitar update button.md",
-    "NVIM/Nvim en Visual Studio.md",
-    "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
-    "Implementations/Banca Clientes Automatico",
-    "AGRITECH/Definicion de Proyecto.md",
+    "AURORA",
+    "AURORA/Implementations/PRETTIER",
+    "Implementations/CLAUDE",
+    "AURORA/Implementations/Banca",
+    "MIA",
+    "Pasted image 20261015094939.png",
+    "Pasted image 20261015094732.png",
+    "Pasted image 20261015094104.png",
+    "AURORA/Implementations/Banca Clientes Automatico",
     "NVIM/Nvim en Visual Studio.md.tmp.23343.81d039eccafe",
-    "AGRITECH/Cosas a hacer.md",
-    "Tutorials/Shadcn UI.md",
-    "Tutorials/Ruta de Estudio AgriTech.md",
-    "Tutorials/TanStack Router y Start.md",
-    "Requerimientos/Features/SIPAD 341/SIPAD 341.md",
-    "Tutorials/CSS/CSS Recomendations.md",
-    "Tutorials/Como usar MAC.md",
     "MOBILE",
     "Pasted image 20260928102110.png",
-    "PYME/Productos",
-    "NVIM",
-    "Implementations/CAMBIOS AURORA",
-    "Implementations/Contabilidad - Tasa seguridad",
-    "Important Info.canvas",
     "Pasted image 20260825145423.png",
     "Pasted image 20260825151511.png",
     "Pasted image 20260827095257.png",
     "Pasted image 20260902154836.png",
     "Pasted image 20260902154840.png",
-    "PYME",
-    "BANHCAFE COLLECTIONS",
-    "Implementations/On Boarding",
     "Pasted image 20260825151703.png",
-    "Tutorials/CSS/personalitySpectrum.png",
-    "Untitled.canvas",
-    "Pasted image 20250801095211.png"
+    "Untitled.canvas"
   ]
 }

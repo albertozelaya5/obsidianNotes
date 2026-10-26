@@ -32,12 +32,12 @@ Por ahora: **los videos que me pasó mi coworker, en su orden, + la documentaci�
 https://www.youtube.com/watch?v=BUXnASp_WyQ
 
 Primer contacto con todo. Mientras lo veo, tener abierta la sección **The Basics** de https://reactnative.dev/docs/getting-started para repasar cada tema:
-- [ ] Core Components and Native Components (el equivalente de `div` y `span`)
-- [ ] Style
-- [ ] Layout with Flexbox (en móvil `flexDirection` es `column` por defecto, no `row`)
-- [ ] Using a ScrollView
-- [ ] Using List Views (`FlatList` en vez de `.map()` para listas largas)
-- [ ] Platform Specific Code (diferencias entre iOS y Android)
+- [x] Core Components and Native Components (el equivalente de `div` y `span`) → [[Core components]]
+- [x] Style
+- [x] Layout with Flexbox (en móvil `flexDirection` es `column` por defecto, no `row`)
+- [x] Using a ScrollView
+- [x] Using List Views (`FlatList` en vez de `.map()` para listas largas)
+- [x] Platform Specific Code (diferencias entre iOS y Android) → [[Platform specific code]]
 
 ### 2. [ ] Tutorial oficial de Expo (1–2 días)
 https://docs.expo.dev/tutorial/introduction/
