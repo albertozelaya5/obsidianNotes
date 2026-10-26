@@ -1,0 +1,11 @@
+---
+pais:
+opcion:
+etapa:
+deadline:
+notas:
+link:
+info_aplicacion:
+favorito:
+nuevo:
+---

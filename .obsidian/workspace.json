@@ -1,70 +1,41 @@
 {
   "main": {
-    "id": "c3e8b94bd17d321d",
+    "id": "b8d83177942d7286",
     "type": "split",
     "children": [
       {
-        "id": "9416f35938a4c097",
+        "id": "c3f47aa772fe14fa",
         "type": "tabs",
         "children": [
           {
-            "id": "7ddeb54373063c45",
+            "id": "85372810e7dde0eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Enviar Req a QA (requerimiento).md",
+                "file": "Key.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enviar Req a QA (requerimiento)"
-            }
-          },
-          {
-            "id": "44d0f9382a602518",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NVIM/Tmux.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tmux"
-            }
-          },
-          {
-            "id": "d0163248505459ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AURORA/Requerimientos/Features/SIPAD 341/SIPAD 341 - RICCY CAMBIOS FECHAS(VIDEO) Y BANCO.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SIPAD 341 - RICCY CAMBIOS FECHAS(VIDEO) Y BANCO"
+              "title": "Key"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1a45085562dd59c8",
+    "id": "3c5c5e8f23bb05ec",
     "type": "split",
     "children": [
       {
-        "id": "a1a3a7ba66998a6e",
+        "id": "abb362b103c2c07f",
         "type": "tabs",
         "children": [
           {
-            "id": "e8278d379ef4b45e",
+            "id": "cc8624ef1b8cef22",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -79,12 +50,12 @@
             }
           },
           {
-            "id": "0b54ce48c17c74e5",
+            "id": "26344a2f26568bbb",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tmux",
+                "query": "beca",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,14 +67,21 @@
             }
           },
           {
-            "id": "47a9e4a326e2f6f6",
+            "id": "888a094a63efac17",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
+            }
+          },
+          {
+            "id": "b46623fa4873ba48",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {
-                "showSearch": false,
-                "searchQuery": ""
-              },
+              "state": {},
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
@@ -112,40 +90,25 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 300
   },
   "right": {
-    "id": "826e5bbfe173cf13",
+    "id": "5dac1ad3f36d8aaa",
     "type": "split",
     "children": [
       {
-        "id": "cb47214092956d11",
+        "id": "2c71e6ccdde7328c",
         "type": "tabs",
         "children": [
           {
-            "id": "af48520032ebb07f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Implementations/Generacion de Plantilla/Generación de Plantilla.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Esquema de Generación de Plantilla"
-            }
-          },
-          {
-            "id": "2e90ae55d2b3a793",
+            "id": "d167840db1f4de8a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Implementations/Sistema de Requerimientos/Requisitos de requerimientos.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "file": "Opciones de Becas.md",
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -153,43 +116,72 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Requisitos de requerimientos"
+              "title": "Enlaces entrantes de Opciones de Becas"
             }
           },
           {
-            "id": "6b8c40b936325594",
+            "id": "0d263974413e2336",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Implementations/Sistema de Requerimientos/Requisitos de requerimientos.md",
+                "file": "Opciones de Becas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Requisitos de requerimientos"
+              "title": "Enlaces salientes de Opciones de Becas"
             }
           },
           {
-            "id": "3b0c6c623747059c",
+            "id": "38d10524e91726f6",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "8cbc7377bcc38e77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Opciones de Becas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Opciones de Becas"
+            }
+          },
+          {
+            "id": "056bdbc04d92622a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -197,62 +189,64 @@
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
+      "bases:Crear nueva base": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "e8278d379ef4b45e",
+  "active": "85372810e7dde0eb",
   "lastOpenFiles": [
-    "NVIM/Lazygit.md",
-    "GIT/Comandos Git.md",
-    "NVIM/Tmux.md",
-    "AURORA/Implementations/On Boarding/Onboarding Creación de Clientes.md",
-    "MOBILE/Ruta React Native.md",
-    "MOBILE/Platform specific code.md",
-    "MOBILE/Core components.md",
-    "MOBILE/React Native Notes.md",
-    "Tutorials/Enviar Req a QA (requerimiento).md",
-    "AURORA/Implementations/Sistema de Requerimientos/Permisos de Requerimientos.md",
-    "Tutorials/Pase a Produccion Aurora.md",
-    "AURORA/Requerimientos/Features/SIPAD 341/SIPAD 341 - RICCY CAMBIOS FECHAS(VIDEO) Y BANCO.md",
-    "AURORA/Ramas a Revisar.md",
-    "Important Info.canvas",
-    "AURORA/Implementations/Contabilidad - Tasa seguridad/Contabilidad - Tasa seguridad - Diego.md",
-    "Claude/Skills.md",
-    "Claude/Modelos.md",
-    "Claude/Como guardar chats.md",
-    "Claude/claude-code-multi-cuenta.md",
-    "AURORA/Implementations/DOCKERFILE/Dockerfile node version.md",
-    "AURORA/Implementations/DOCKERFILE",
-    "GIT",
-    "NVIM/Atajos Lazyvim.md",
-    "AURORA/Implementations/Generacion de Plantilla/Generación de Plantilla.md",
-    "AURORA/Implementations/Banca/Quitar +504.md",
-    "AURORA/Implementations/Sistema de Requerimientos/Evaluaciones/Evaluations.tsx.md",
+    "Becas-Obsidian/Becas/Media Informatics - Saarbrücken, Germany.md",
+    "PYME/Productos/Registro - creacion.md",
+    "PYME/Productos",
+    "PYME/Pendientes.md",
+    "PYME/Definicion de Proyecto.md",
     "PYME/Definicion CLAUDE.md",
-    "MIA/COSAS POR HACER.md",
+    "PYME",
+    "NVIM/Tutorial - Neovim desde cero.md",
+    "NVIM/Tmux.md",
+    "NVIM/Lazygit.md",
+    "NVIM/Atajos Lazyvim.md",
     "NVIM/Atajos de búsqueda.md",
-    "AURORA",
-    "AURORA/Implementations/PRETTIER",
-    "Implementations/CLAUDE",
-    "AURORA/Implementations/Banca",
-    "MIA",
-    "Pasted image 20261015094939.png",
-    "Pasted image 20261015094732.png",
-    "Pasted image 20261015094104.png",
-    "AURORA/Implementations/Banca Clientes Automatico",
-    "NVIM/Nvim en Visual Studio.md.tmp.23343.81d039eccafe",
+    "NVIM",
+    "Tutorials/TanStack Router y Start.md",
+    "Tutorials/Shadcn UI.md",
+    "Tutorials/Ruta de Estudio AgriTech.md",
+    "Tutorials/React Query (Tanstack query).md",
+    "Tutorials/Plantilla Proyectos.md",
+    "Tutorials/Permisos Aurora- Mia.md",
+    "Tutorials/Pase a Produccion Aurora.md",
+    "Tutorials/Optimizar imágenes.md",
+    "Tutorials/Instalar Eslint.md",
+    "Tutorials/Git/Revertir un error sin git revert.md",
+    "Tutorials/Git Workflow Aurora.md",
+    "Tutorials/Comandos Claude.md",
+    "Tutorials/Clear cache Npm.md",
+    "Tutorials/CSS/Website Personalities.md",
+    "Tutorials/CSS/Typography.md",
+    "Tutorials/CSS/Tailwind Prettier.md",
+    "Tutorials/CSS/personalitySpectrum.png",
+    "Tutorials/CSS",
     "MOBILE",
-    "Pasted image 20260928102110.png",
-    "Pasted image 20260825145423.png",
-    "Pasted image 20260825151511.png",
-    "Pasted image 20260827095257.png",
-    "Pasted image 20260902154836.png",
-    "Pasted image 20260902154840.png",
-    "Pasted image 20260825151703.png",
-    "Untitled.canvas"
+    "Implementations/On Boarding",
+    "Implementations/Contabilidad - Tasa seguridad",
+    "Implementations/CAMBIOS AURORA",
+    "Implementations/Banca Clientes Automatico",
+    "BANHCAFE COLLECTIONS",
+    "Important Info.canvas",
+    "Pasted image 20260829174045.png",
+    "Pasted image 20260829174053.png",
+    "Pasted image 20260829173619.png",
+    "Pasted image 20260829172426.png",
+    "Pasted image 20260829172241.png",
+    "Pasted image 20260819183903.png",
+    "Pasted image 20260819182919.png",
+    "Untitled.canvas",
+    "Becas KAAD Formulario.png",
+    "Tutorials/personalitySpectrum.png",
+    "obsidianNotes/Untitled.canvas",
+    "obsidianNotes/Important Info.canvas"
   ]
 }

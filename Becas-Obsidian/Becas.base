@@ -1,0 +1,87 @@
+filters:
+  and:
+    - file.inFolder("Becas-Obsidian/Becas")
+views:
+  - type: table
+    name: Todas las postulaciones
+    order:
+      - file.name
+      - pais
+      - opcion
+      - etapa
+      - deadline
+      - notas
+      - link
+      - info_aplicacion
+      - favorito
+      - nuevo
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: favorito
+        direction: ASC
+      - property: notas
+        direction: DESC
+      - property: link
+        direction: DESC
+      - property: etapa
+        direction: DESC
+      - property: nuevo
+        direction: DESC
+    columnSize:
+      file.name: 617
+      note.info_aplicacion: 250
+  - type: table
+    name: Por etapa
+    groupBy:
+      property: etapa
+      direction: ASC
+    order:
+      - file.name
+      - pais
+      - opcion
+      - deadline
+      - notas
+  - type: table
+    name: Próximos vencimientos
+    filters:
+      and:
+        - etapa != "No Aplica"
+    order:
+      - file.name
+      - pais
+      - deadline
+      - etapa
+      - link
+  - type: table
+    name: Por aplicar
+    filters:
+      or:
+        - etapa == "Ready to apply"
+        - etapa == "To Apply"
+    order:
+      - file.name
+      - pais
+      - opcion
+      - deadline
+      - link
+  - type: table
+    name: Nuevas (sin revisar)
+    filters:
+      and:
+        - nuevo
+    order:
+      - file.name
+      - pais
+      - deadline
+      - etapa
+  - type: table
+    name: Favoritos
+    filters:
+      and:
+        - favorito
+    order:
+      - file.name
+      - pais
+      - etapa
+      - deadline
